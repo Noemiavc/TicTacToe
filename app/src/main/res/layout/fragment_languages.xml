@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_container"
+    android:layout_width="300dp"
+    android:layout_height="270dp"
+    android:background="@drawable/rounded_corner"
+    android:orientation="vertical"
+    android:layout_marginLeft="25dp"
+    android:layout_marginTop="20dp"
+    tools:context=".languages">
+
+    <ImageButton
+        android:id="@+id/cerrarVentana"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="end"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/cerrarventana">
+
+    </ImageButton>
+
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/language"
+        android:layout_width="45dp"
+        android:layout_height="45dp">
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:src="@drawable/italy"
+            android:layout_weight="1"
+            />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:src="@drawable/spain"
+            android:layout_weight="1"
+            />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:src="@drawable/france"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>

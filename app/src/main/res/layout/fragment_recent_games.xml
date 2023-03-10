@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="270dp"
+    android:background="@drawable/rounded_corner"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_marginLeft="25dp"
+    android:layout_marginTop="20dp"
+    tools:context=".RecentGames">
+
+
+    <ImageButton
+        android:id="@+id/cerrarVentana"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="end"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/cerrarventana">
+
+    </ImageButton>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="*">
+
+        <TableRow>
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="60dp"
+                android:src="@drawable/woman"
+                android:padding="10dp"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:textColor="#4CAF50"
+                android:text="VICTORY"
+                android:padding="10dp"/>
+        </TableRow>
+
+        <TableRow>
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="60dp"
+                android:src="@drawable/woman"
+                android:padding="10dp"/>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:textColor="#4CAF50"
+                android:text="VICTORY"
+                android:padding="10dp"/>
+        </TableRow>
+
+        <TableRow>
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="60dp"
+                android:src="@drawable/woman"
+                android:padding="10dp"/>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:textSize="20dp"
+                android:textColor="#CC1212"
+                android:text="DEFEAT"
+                android:padding="10dp"/>
+        </TableRow>
+
+    </TableLayout>
+
+
+</LinearLayout>

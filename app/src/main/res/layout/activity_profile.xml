@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/profile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/fondoju"
+    tools:context=".MenuJuego">
+
+    <ImageView
+        android:layout_marginBottom="20dp"
+        android:id="@+id/salir"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:background="@drawable/logout">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PROFILE"
+        android:textStyle="italic"
+        android:textSize="35dp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="30dp"/>
+
+    <TableLayout
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+
+            <ImageView
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/useeeer" />
+            <ImageView
+                android:id="@+id/fragment_passw"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/llave" />
+        </TableRow>
+
+        <TableRow
+            android:layout_marginBottom="25dp">
+
+            <TextView
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                android:text="Username"
+                android:padding="10dp" />
+            <TextView
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:textStyle="italic"
+                android:text="Password"
+                android:padding="10dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <ImageView
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/badge" />
+            <ImageView
+                android:id="@+id/fragment_rank"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ranking" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                android:text="Rewards"
+                android:padding="10dp" />
+            <TextView
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                android:text="Ranking"
+                android:padding="10dp" />
+        </TableRow>
+
+    </TableLayout>
+
+    <ImageView
+        android:id="@+id/volver"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:background="@drawable/left">
+
+    </ImageView>
+
+</LinearLayout>
